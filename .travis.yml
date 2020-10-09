@@ -22,7 +22,9 @@ dist: trusty
 os:
   - linux
   - osx
-
+arch:
+  - amd64
+  - ppc64le
 # compiler: expands the build matrix to include multiple compilers (per os)
 compiler:
   - gcc
